@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
     });
   } catch (error) {
     return NextResponse.json({
-      text: "Unable to process the prompt. Please try again."
+      text: "Não foi possível fazer a requisiçaõ, tente novamente!"
     });
   }
 }
