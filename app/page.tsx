@@ -84,7 +84,7 @@ export default function Home() {
     }
 
     // clear the output
-    setOutput("Gemini IA irá responder sua pergunta...");
+    setOutput("Gemini IA está esperando sua pergunta...");
 
     // create a post request to the /api/chat endpoint
     const response = await fetch("api/chat", {
