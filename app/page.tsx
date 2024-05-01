@@ -16,7 +16,7 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
   const [output, setOutput] = useState(
-    "Gemini IA irá responder sua pergunta..."
+    "Gemini IA está esperando sua pergunta..."
   );
 
   const onKeyDown = (e: any) => {
@@ -84,7 +84,7 @@ export default function Home() {
     }
 
     // clear the output
-    setOutput("Gemini IA está esperando sua pergunta...");
+    setOutput("Gemini IA está digitando...");
 
     // create a post request to the /api/chat endpoint
     const response = await fetch("api/chat", {
