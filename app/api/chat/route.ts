@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
     });
   } catch (error) {
     return NextResponse.json({
-      text: "Não foi possível fazer a requisiçaõ, tente novamente!"
+      text: "Não foi possível fazer a requisição, tente novamente!"
     });
   }
 }
